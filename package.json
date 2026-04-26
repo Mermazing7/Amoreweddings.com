@@ -1,4 +1,9 @@
-{
+{"pnpm": {
+  "onlyBuiltDependencies": [
+    "@clerk/shared",
+    "core-js"
+  ]
+},
   "name": "workspace",
   "version": "0.0.0",
   "license": "MIT",
