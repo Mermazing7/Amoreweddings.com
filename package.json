@@ -1,4 +1,12 @@
-{"pnpm": {
+{
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@clerk/shared",
+      "core-js"
+    ]
+  },
+  "name": "your-project-name",
+  {"pnpm": {
   "onlyBuiltDependencies": [
     "@clerk/shared",
     "core-js"
