@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Wedding Planner"
+version = "1.0.0"
+id = "artifacts/wedding-planner"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25016
+
+[services.development]
+run = "pnpm --filter @workspace/wedding-planner run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wedding-planner", "run", "build" ]
+publicDir = "artifacts/wedding-planner/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25016"
+BASE_PATH = "/"

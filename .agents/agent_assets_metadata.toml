@@ -1,0 +1,55 @@
+uploads = []
+
+[[generated]]
+id = "_m95SEFPOEYPKSphi-uDZ"
+uri = "file://artifacts/wedding-planner/public/images/hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "J9xE-0LpWkHfaiuXP4Dpq"
+uri = "file://artifacts/wedding-planner/public/images/dining.png"
+type = "image"
+title = "Elegant table setting"
+
+[[generated]]
+id = "Fz8Ttfy2gau8b-IAoj2KO"
+uri = "file://artifacts/wedding-planner/public/images/venue.png"
+type = "image"
+title = "Beautiful outdoor venue"
+
+[[generated]]
+id = "6cyOTsYCz5G41snWY6YCB"
+uri = "file://artifacts/wedding-planner/public/images/stationery.png"
+type = "image"
+title = "Modern stationery"
+
+[[generated]]
+id = "rX_Yd-Zhfw-gwT3AaQGo7"
+uri = "file://artifacts/wedding-planner/public/images/bride.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "uizfM5tGIgOAdXqnW40oA"
+uri = "file://artifacts/wedding-planner/public/images/floral.png"
+type = "image"
+title = "Lush floral arrangement"
+
+[[generated]]
+id = "Ep3tG-8-lmkVpeVLni-Z6"
+uri = "file://artifacts/wedding-planner/public/images/couple2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "o61w0Hivg9LWJiEYp5Cuc"
+uri = "file://artifacts/wedding-planner/public/images/ceremony.png"
+type = "image"
+title = "wedding ceremony arch"
+
+[[outputs]]
+id = "PrhaZaW6YjeiArkKxwN77"
+uri = "file://project.zip"
+type = "unspecified"
+title = "Amore Project (full source)"
